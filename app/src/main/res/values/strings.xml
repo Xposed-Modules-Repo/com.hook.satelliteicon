@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SatelliteIconHook</string>
+    <string name="app_desc">Fuerza el ícono NTN/satélite en la barra de estado — MistOS 4.5 / Android 16 QPR2</string>
+
+    <!--
+        Scope de inyección para LSPosed.
+        CRÍTICO: SatelliteController vive en com.android.phone, NO en system_server.
+    -->
+    <string-array name="xposed_scope">
+        <item>android</item>                  <!-- system_server: TelephonyRegistry subId bypass -->
+        <item>com.android.phone</item>        <!-- Phone process: SatelliteController REAL -->
+        <item>com.android.systemui</item>     <!-- StatusBar: listeners NTN, ícono -->
+    </string-array>
+</resources>

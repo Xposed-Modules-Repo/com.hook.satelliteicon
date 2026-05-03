@@ -1,0 +1,61 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:2:1-40:12
+	package
+		INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:10:5-38:19
+INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:10:5-38:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:12:9-41
+	android:exported
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:15:9-33
+	android:icon
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:14:9-56
+	android:allowBackup
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:11:9-36
+	android:description
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:13:9-47
+meta-data#xposedmodule
+ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:18:9-20:36
+	android:value
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:20:13-33
+	android:name
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:19:13-40
+meta-data#xposeddescription
+ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:23:9-25:48
+	android:value
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:24:13-45
+meta-data#xposedminversion
+ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:28:9-30:34
+	android:value
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:30:13-31
+	android:name
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:29:13-44
+meta-data#xposedscope
+ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:34:9-36:54
+	android:resource
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:36:13-51
+	android:name
+		ADDED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:35:13-39
+uses-sdk
+INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml

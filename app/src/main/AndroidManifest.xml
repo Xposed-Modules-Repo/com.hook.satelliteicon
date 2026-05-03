@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        LSPosed Module — SatelliteIconHook
+        Objetivo: forzar visibilidad del ícono de satélite NTN en MistOS 4.5 (Android 16 QPR2)
+        Requiere: LSPosed + SIM dada de baja insertada
+    -->
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:description="@string/app_desc"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:exported="false">
+
+        <!-- Marca este APK como módulo Xposed/LSPosed -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+
+        <!-- Descripción visible en el manager de LSPosed -->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="@string/app_desc" />
+
+        <!-- Versión mínima de API Xposed requerida -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="93" />
+
+        <!-- Scope: procesos donde se inyecta el hook -->
+        <!-- android = system_server | systemui = status bar -->
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposed_scope" />
+
+    </application>
+
+</manifest>

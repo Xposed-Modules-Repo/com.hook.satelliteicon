@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>android</item>                  
+        <item>com.android.phone</item>        
+        <item>com.android.systemui</item>     
+    </string-array>
+    <string name="app_desc">Fuerza el ícono NTN/satélite en la barra de estado — MistOS 4.5 / Android 16 QPR2</string>
+    <string name="app_name">SatelliteIconHook</string>
+</resources>

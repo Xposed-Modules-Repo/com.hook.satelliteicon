@@ -1,0 +1,65 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hook.satelliteicon"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="33"
+9        android:targetSdkVersion="36" />
+10
+11    <!--
+12        LSPosed Module — SatelliteIconHook
+13        Objetivo: forzar visibilidad del ícono de satélite NTN en MistOS 4.5 (Android 16 QPR2)
+14        Requiere: LSPosed + SIM dada de baja insertada
+15    -->
+16    <application
+16-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:10:5-38:19
+17        android:allowBackup="false"
+17-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:11:9-36
+18        android:debuggable="true"
+19        android:description="@string/app_desc"
+19-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:13:9-47
+20        android:exported="false"
+20-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:15:9-33
+21        android:extractNativeLibs="false"
+22        android:icon="@android:drawable/ic_dialog_info"
+22-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:14:9-56
+23        android:label="@string/app_name" >
+23-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:12:9-41
+24
+25        <!-- Marca este APK como módulo Xposed/LSPosed -->
+26        <meta-data
+26-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:18:9-20:36
+27            android:name="xposedmodule"
+27-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:19:13-40
+28            android:value="true" />
+28-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:20:13-33
+29
+30        <!-- Descripción visible en el manager de LSPosed -->
+31        <meta-data
+31-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:23:9-25:48
+32            android:name="xposeddescription"
+32-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:24:13-45
+33            android:value="@string/app_desc" />
+33-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:25:13-45
+34
+35        <!-- Versión mínima de API Xposed requerida -->
+36        <meta-data
+36-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:28:9-30:34
+37            android:name="xposedminversion"
+37-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:29:13-44
+38            android:value="93" />
+38-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:30:13-31
+39
+40        <!-- Scope: procesos donde se inyecta el hook -->
+41        <!-- android = system_server | systemui = status bar -->
+42        <meta-data
+42-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:34:9-36:54
+43            android:name="xposedscope"
+43-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:35:13-39
+44            android:resource="@array/xposed_scope" />
+44-->C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\src\main\AndroidManifest.xml:36:13-51
+45    </application>
+46
+47</manifest>

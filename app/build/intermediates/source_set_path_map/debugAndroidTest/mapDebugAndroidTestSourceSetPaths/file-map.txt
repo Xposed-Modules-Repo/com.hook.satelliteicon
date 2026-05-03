@@ -1,0 +1,4 @@
+com.hook.satelliteicon.test.app-androidTest-0 C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\build\generated\res\resValues\androidTest\debug
+com.hook.satelliteicon.test.app-mergeDebugAndroidTestResources-1 C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.hook.satelliteicon.test.app-mergeDebugAndroidTestResources-2 C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.hook.satelliteicon.test.app-debugAndroidTest-3 C:\Users\Minerva\Downloads\SatelliteIconHook\SatelliteIconHook\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

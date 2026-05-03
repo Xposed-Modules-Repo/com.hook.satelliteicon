@@ -1,0 +1,3 @@
+com.hook.satelliteicon:string/app_name = 0x7f020001
+com.hook.satelliteicon:string/app_desc = 0x7f020000
+com.hook.satelliteicon:array/xposed_scope = 0x7f010000

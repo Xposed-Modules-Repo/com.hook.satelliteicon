@@ -1,0 +1,45 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.hook.satelliteicon'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.hook.satelliteicon"
+        minSdk 33
+        targetSdk 36
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false  // No ofuscar para que XposedBridge encuentre las clases
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    // El APK no necesita dex optimizado para LSPosed
+    packaging {
+        resources {
+            excludes += ['META-INF/**']
+        }
+    }
+}
+
+dependencies {
+    // XposedBridge API incluida localmente como JAR (evita dependencia de red).
+    // compileOnly = solo para compilar, NO se incluye en el APK.
+    // LSPosed inyecta el API real en runtime.
+    compileOnly fileTree(dir: 'libs', include: ['*.jar'])
+}
