@@ -20,8 +20,7 @@ en la status bar de Android 15 y 16
 | compileSdk | 36 (Android 16) |
 | LSPosed | Última versión estable |
 | Root | Magisk / KernelSU-Next / APatch |
-| SIM | Dada de baja | bloqueada | inhabilitada |
-
+| SIM | Dada de baja/bloqueada/inhabilitada |
 ---
 
 ## Compilar
@@ -63,7 +62,7 @@ in the status bar of Android 15 & 16
 | compileSdk | 36 |
 | LSPosed | Latest stable |
 | Root | Magisk / KernelSU-Next / APatch |
-| SIM | Deactivated |
+| SIM | Deactivated/blocked/disabled |
 
 ---
 
