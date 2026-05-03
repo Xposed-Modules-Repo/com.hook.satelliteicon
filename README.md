@@ -45,6 +45,8 @@ Activar en LSPosed → reiniciar
 - Solo cosmético
 - no da red satelital real
 
+en Android 15 puedes llenar las 2 barritas del satélite juntando este y el de [FakeSIM without real service](https://github.com/Xposed-Modules-Repo/com.statusbarmod.hook)
+
 ## ENGLISH
 
 LSPosed module to force the satellite connection icon (NTN)  
@@ -87,3 +89,5 @@ Enable in LSPosed → reboot
 
 - Cosmetic only  
 - No real satellite connectivity
+
+In Android 15 you can fill both satellite bars by combining this one and the one for [FakeSIM without real service](https://github.com/Xposed-Modules-Repo/com.statusbarmod.hook)
