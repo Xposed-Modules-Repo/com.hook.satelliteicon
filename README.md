@@ -44,7 +44,7 @@ Activar en LSPosed → reiniciar
 - Solo cosmético
 - no da red satelital real
 
-en Android 15 puedes llenar las 2 barritas del satélite juntando este y el de [FakeSIM without real service](https://github.com/Xposed-Modules-Repo/com.statusbarmod.hook)
+para llenar las 2 barritas del satélite en Android 15 instala [este apk](https://github.com/Xposed-Modules-Repo/com.statusbarmod.hook/releases/download/2-2.0/com.statusbar.hook.2.0.android.14+.apk)
 
 ## ENGLISH
 
@@ -89,4 +89,4 @@ Enable in LSPosed → reboot
 - Cosmetic only  
 - No real satellite connectivity
 
-In Android 15 you can fill both satellite bars by combining this one and the one for [FakeSIM without real service](https://github.com/Xposed-Modules-Repo/com.statusbarmod.hook)
+To fill both satellite bars on Android 15, install [this apk](https://github.com/Xposed-Modules-Repo/com.statusbarmod.hook/releases/download/2-2.0/com.statusbar.hook.2.0.android.14+.apk)
